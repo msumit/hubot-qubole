@@ -12,8 +12,7 @@
 
 module.exports = (robot) ->
   baseUrl = "https://api.qubole.com/api/latest/"
-  authHeader = {'X-AUTH-TOKEN': process.env.HUBOT_QUBOLE_AUTH_TOKEN,
-                'Content-Type': 'application/json'}
+  authHeader = {'X-AUTH-TOKEN': process.env.HUBOT_QUBOLE_AUTH_TOKEN, 'Content-Type': 'application/json'}
 
   robot.respond /command (\d+) status\??/i, (msg) ->
     cmd_id = msg.match[1]
