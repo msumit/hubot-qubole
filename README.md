@@ -13,7 +13,7 @@ If you are using Heroku to host your bot, replace `export ...` with `heroku set:
 See full instructions [here](https://github.com/github/hubot/blob/master/docs/scripting.md#npm-packages).
 
 1. `npm install hubot-qubole --save` (updates your `package.json` file)
-2. Open the `external-scripts.json` file in the root directory (you may need to create this file) and add an entry to the array (e.g. `[ 'hubot-statuspage' ]`).
+2. Open the `external-scripts.json` file in the root directory (you may need to create this file) and add an entry to the array (e.g. `[ 'hubot-qubole' ]`).
 
 ## Commands
 
