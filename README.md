@@ -17,4 +17,13 @@ See full instructions [here](https://github.com/github/hubot/blob/master/docs/sc
 
 ## Commands
 
-- `hubot command <id> status?` - Display an overall status of a command
+- `hubot command <id> status` - Display an overall status of a command
+- `hubot cluster <id> status` - Display the status of given cluster id
+- `hubot cluster <id> nodes` - Display the nodes information of given cluster id
+- `hubot cluster <id> usage` - Show the usage statistics for the given cluster id
+- `hubot schedule <id> status` - Display the status of given schedule id
+- `hubot schedule <id> runs` - Shows the last 10 run of a given schedule
+- `hubot template <id> status` - Display the status of given template id
+- `hubot template <id> runs` - Shows the last 10 run of a given template
+- `hubot note <id> status` - Display the status of a given notebook id
+- `hubot qcuh` - Shows the QCUH consumed in ongoing month

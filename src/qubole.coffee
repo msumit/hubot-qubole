@@ -15,7 +15,7 @@
 #   hubot template <id> status - Display the status of given template id
 #   hubot template <id> runs - Shows the last 10 run of a given template
 #   hubot note <id> status - Display the status of a given notebook id
-#   hubot qcuh - Show the QCUH consumed in ongoing month
+#   hubot qcuh - Shows the QCUH consumed in ongoing month
 #
 # Author:
 #   Sumit Maheshwari <sumeet.manit@gmail.com>
