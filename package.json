@@ -1,6 +1,6 @@
 {
   "name": "hubot-qubole",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Interaction with Qubole Data Services APIs via Hubot framework",
   "main": "index.js",
   "scripts": {

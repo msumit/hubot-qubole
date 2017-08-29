@@ -1,10 +1,13 @@
 # hubot-qubole
-Interaction with Qubole Data Services APIs via Hubot framework
+Interaction with [Qubole](https://qubole.com) Data Services APIs via Hubot framework
 
 ## Configuration
 
 * Register the auth token value as an environment variables when starting your bot (as usual with Hubot scripts).
  * `export HUBOT_QUBOLE_AUTH_TOKEN=your_auth_token`
+
+* If you are not working on api.qubole.com, then you can override the api endpoint as well (optional)
+ * `export HUBOT_QUBOLE_AUTH_TOKEN=https://<env>.qubole.com/api/latest`
 
 If you are using Heroku to host your bot, replace `export ...` with `heroku set:config ...`.
 
